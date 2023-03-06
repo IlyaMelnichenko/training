@@ -126,17 +126,35 @@ a{
   
 }
 .sign-item>.second{
-  color:var(--white-color);
-  background-color:var(--ocean-color);
+  
+  color:var(--tittle-color) ;
+    background-color:#3030af ;
   padding: 8px 20px;
   border-radius: 4px;
-  
+  transition: color 450ms linear,
+  background-color 450ms linear;
 }
+  .sign-item>.second:hover{
+    color:var(--white-color);
+  background-color:var(--ocean-color);
+  
+    
+    
+  }
+  
+
 .sign-item>.first{
   color:var(--ocean-color);
-  background-color:var(--white-color);
+  background-color:transparent;
   padding: 8px 20px;
   border-radius: 4px;
+  transition: color 450ms linear,
+  background-color 450ms linear;
+}
+.sign-item>.first:hover{
+  color:#3030af;
+  background-color:var(--text-color);
+  
 }
 /* startaps */
 .startaps{
@@ -163,12 +181,28 @@ margin-bottom: 64px;
 
 }
 .start{
+  color:var(--tittle-color) ;
+    background-color:#3030af ;
+    transition: color 450ms linear,
+    background-color 450ms linear;
+    
+}
+.start:hover{
   background-color: var(--ocean-color);
   color: var(--white-color);
+
 }
 .learn{
   background-color: #33363A;
   color: var(--text-color);
+  transition: color 450ms linear,
+  background-color 450ms linear;
+}
+.learn:hover{
+  background-color: var(--text-color);
+  color: var(--tittle-color);
+
+
 }
 /* workflows */
 .workflows{
